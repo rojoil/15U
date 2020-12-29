@@ -1,0 +1,28 @@
+{
+  "name": "comment-app",
+  "version": "1.0.0",
+  "description": "common houmework",
+  "main": "./src/index.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --content-base ./ --env.dev",
+    "build": "webpack --env.prod"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Roman Ilyushin",
+  "license": "MIT"
+}
